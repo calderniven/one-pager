@@ -1,7 +1,22 @@
+:root {
+    --default-font: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--default-font);
+}
+
 .avatar {
+    margin: auto;
+    margin-top: 35px;
     display: block;
     height: 200px;
     width: 200px;
     border-radius: 100px;
-    margin: auto;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px 5px rgb(207, 207, 207);
+}
+
+h1 {
+    text-align: center;
 }
