@@ -3,12 +3,40 @@
 }
 
 body {
+    background-color: grey;
     font-family: var(--default-font);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 30px;
+    background-color: #eee;
+}
+
+section {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+section:last-of-type {
+    padding-bottom: 30px;
+}
+
+div > p:last-of-type {
+    padding-bottom: 30px;
+}
+
+p {
+    line-height: 170%;
+}
+
+.main-header {
+ padding-top: 35px;
 }
 
 .avatar {
     margin: auto;
-    margin-top: 35px;
     display: block;
     height: 200px;
     width: 200px;
@@ -19,4 +47,13 @@ body {
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    line-height: 150%;
+    margin-top: 20px;
 }
