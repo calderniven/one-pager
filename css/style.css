@@ -23,6 +23,20 @@ section:last-of-type {
     padding-bottom: 30px;
 }
 
+section > h2 {
+    padding: 5px;
+    color: #2c2a2ae8;
+    background-color: #ffffff 0.0;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 0 15px 5px rgb(216, 216, 216);
+    border-radius: 5px;
+}
+
+div.activity {
+    margin-top: 15px;
+    padding: 15px;
+}
+
 div > p:last-of-type {
     padding-bottom: 30px;
 }
