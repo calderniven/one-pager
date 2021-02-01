@@ -1,2 +1,7 @@
 @use 'normalize';
-@use 'style';
+@use 'variables';
+@use 'general';
+
+@use 'avatar';
+@use 'sections';
+@use 'headers';
